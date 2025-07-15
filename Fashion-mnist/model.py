@@ -42,3 +42,10 @@ model.compile(loss="sparse_categorical_crossentropy",
               metrics=["accuracy"])
 
 history = model.fit(x_train, y_train, epochs=50, validation_split=0.15)
+
+model.evaluate(x_test, y_test, verbose=0)
+
+
+model.evaluate(x_test, y_test, verbose=0)
+
+
