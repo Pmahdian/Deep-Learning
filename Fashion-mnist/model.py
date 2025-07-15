@@ -40,3 +40,5 @@ weights, bias = model.layers[1].get_weights()
 model.compile(loss="sparse_categorical_crossentropy",
               optimizer="sgd",
               metrics=["accuracy"])
+
+history = model.fit(x_train, y_train, epochs=50, validation_split=0.15)
