@@ -44,4 +44,38 @@ Image classifier for Fashion-MNIST dataset featuring:
 ### Prerequisites
 ```bash
 pip install -r requirements.txt
+```
+
+### Running Projects
+```bash
+# California Housing
+cd California-Housing
+python main.py
+
+# Fashion MNIST
+cd Fashion-MNIST
+python train.py
+```
+
+## 🛠️ Technical Stack
+- **Frameworks**: TensorFlow 2.x, Keras
+- **Data Processing**: NumPy, Pandas
+- **Visualization**: Matplotlib, Seaborn
+- **Model Evaluation**: scikit-learn
+
+## 📊 Key Metrics
+| Project | Test Accuracy | Loss |
+|---------|--------------|------|
+| California Housing | MAE: 0.45 | MSE: 0.38 |
+| Fashion MNIST | 89.2% | 0.32 |
+
+## 🤝 Contribution
+Contributions welcome! Please:
+1. Fork the repository
+2. Create your feature branch
+3. Submit a pull request
+
+## 📜 License
+MIT License - See [LICENSE](LICENSE) for details
+
 
